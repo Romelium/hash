@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 clap = { version = "3.0", features = ["derive"] }
 sha2 = "0.10"
+md-5 = "0.10"
 base16ct = { version = "0.1.1", features = ["alloc"] }
