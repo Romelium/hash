@@ -25,6 +25,7 @@ fn main() {
         println!("{}", hash.hash(args.string))
     }
     else {
-        println!("Unexpected hash name")
+        println!("Unexpected hash name\n\nAvailable hashes:");
+        hashes.iter().for_each(|x| println!("{}", x.get_name()));
     }
 }
